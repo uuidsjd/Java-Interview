@@ -13,7 +13,7 @@ public class AbstractMapTest {
         LRUAbstractMap map = new LRUAbstractMap() ;
         map.put(1,1) ;
         map.put(2,2) ;
-
+        map.put(3,3);
         Object o = map.get(1);
         LOGGER.info("getSize={}",map.size());
 
